@@ -78,7 +78,7 @@ The project will be available at `http://127.0.0.1:8000`.
 - **Admin Panel**: Access the admin panel at `http://127.0.0.1:8000/admin/` using the superuser credentials. From here, you can manage vehicles, images, comments, and user roles with full control.
 - **Vehicle Listings**: Explore the comprehensive list of vehicles by visiting the cars section at `http://127.0.0.1:8000/vehicles/`. Users can filter vehicles by various criteria, view detailed information, and interact with features like commenting and following vehicles.
 - **User Profile**: After logging in, users can access their profile at `http://127.0.0.1:8000/profile/` to manage their followed vehicles, edit their comments, and update their account details.
-**Django Shell**: You can access the Django shell for advanced management and testing by running the following command in your terminal:
+- **Django Shell**: You can access the Django shell for advanced management and testing by running the following command in your terminal:
 
     ```bash
     python3 concesionario/manage.py shell
