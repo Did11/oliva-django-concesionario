@@ -101,7 +101,7 @@ You can access the Django shell for advanced management and testing by running t
 
 ```bash
 python3 concesionario/manage.py shell
-
+ ```
 
 ## Credits
 
