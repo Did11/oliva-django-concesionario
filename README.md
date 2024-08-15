@@ -75,16 +75,32 @@ The project will be available at `http://127.0.0.1:8000`.
 ![](assets/readme/comments.png)
 ## Usage
 
-- **Admin Panel**: Access the admin panel at `http://127.0.0.1:8000/admin/` using the superuser credentials. From here, you can manage vehicles, images, comments, and user roles with full control.
-- **Vehicle Listings**: Explore the comprehensive list of vehicles by visiting the cars section at `http://127.0.0.1:8000/vehicles/`. Users can filter vehicles by various criteria, view detailed information, and interact with features like commenting and following vehicles.
-- **User Profile**: After logging in, users can access their profile at `http://127.0.0.1:8000/profile/` to manage their followed vehicles, edit their comments, and update their account details.
-- **Django Shell**: You can access the Django shell for advanced management and testing by running the following command in your terminal:
+### Login Credentials
 
-    ```bash
-    python3 concesionario/manage.py shell
-    ```
+The project includes three predefined user accounts with the following credentials:
 
-    From here, you can interact with your Django models and perform database queries directly.
+- **Username:** Admin | **Password:** Argentina2022
+- **Username:** Moderator | **Password:** Argentina2022
+- **Username:** User | **Password:** Argentina2022
+
+### Admin Panel
+
+Access the admin panel at `http://127.0.0.1:8000/admin/` using one of the accounts listed above. From here, you can manage vehicles, images, comments, and user roles with full control.
+
+### Vehicle Listings
+
+Explore the comprehensive list of vehicles by visiting the cars section at `http://127.0.0.1:8000/vehicles/`. Users can filter vehicles by various criteria, view detailed information, and interact with features like commenting and following vehicles.
+
+### User Profile
+
+After logging in, users can access their profile at `http://127.0.0.1:8000/profile/` to manage their followed vehicles, edit their comments, and update their account details.
+
+### Django Shell
+
+You can access the Django shell for advanced management and testing by running the following command in your terminal:
+
+```bash
+python3 concesionario/manage.py shell
 
 
 ## Credits
