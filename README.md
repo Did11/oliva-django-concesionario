@@ -107,8 +107,4 @@ python3 concesionario/manage.py shell
 
 - **Developed by**: Oliva, Didier. 
 
-## License
-
-This project is licensed under the MIT License. See the `LICENSE` file for details.
-
 ![](assets/readme/vehicles.png)
