@@ -13,3 +13,8 @@ entorno/
 # Logs 
 *.log
 logs/
+
+
+# General database files
+*.sqlite3
+*.db
