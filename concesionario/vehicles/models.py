@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 from django.urls import reverse
 from django.core.validators import MinValueValidator, MaxValueValidator
 from datetime import datetime
+from .managers import VehicleManager
 
 class Brand(models.Model):
     """Modelo que representa una marca de vehículo."""
@@ -59,6 +60,8 @@ class Vehicle(models.Model):
     fuel_type = models.CharField(max_length=10, choices=FUEL_CHOICES)
     country_of_manufacture = models.ForeignKey(Country, on_delete=models.CASCADE, related_name="manufactured_vehicles")
     price_in_usd = models.DecimalField(max_digits=12, decimal_places=2)
+
+    objects = VehicleManager()  # Aca se asocia el manager personalizado
 
     def __str__(self):
         return f"{self.brand.name} {self.model} ({self.year_of_manufacture})"

@@ -1,0 +1,194 @@
+.
+├── comments
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_alter_comment_vehicle.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── 0001_initial.cpython-310.pyc
+│   │       ├── 0002_alter_comment_vehicle.cpython-310.pyc
+│   │       └── __init__.cpython-310.pyc
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── admin.cpython-310.pyc
+│   │   ├── apps.cpython-310.pyc
+│   │   ├── forms.cpython-310.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── models.cpython-310.pyc
+│   │   ├── urls.cpython-310.pyc
+│   │   └── views.cpython-310.pyc
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── concesionario
+│   ├── asgi.py
+│   ├── context_processors.py
+│   ├── __init__.py
+│   ├── __pycache__
+│   │   ├── context_processors.cpython-310.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── settings.cpython-310.pyc
+│   │   ├── urls.cpython-310.pyc
+│   │   ├── views.cpython-310.pyc
+│   │   └── wsgi.cpython-310.pyc
+│   ├── settings.py
+│   ├── urls.py
+│   ├── views.py
+│   └── wsgi.py
+├── db.sqlite3
+├── estructura_proyecto.txt
+├── manage.py
+├── media
+│   ├── admin.py
+│   ├── apps.py
+│   ├── forms.py
+│   ├── images
+│   │   └── uploads
+│   │       ├── 1
+│   │       │   ├── 18d72af2519d4e55a4396811b994f2dd.jpg
+│   │       │   ├── 7d8da7b900c64584afc12a6c9e84ff8d.jpg
+│   │       │   ├── 890e918013a443f9beba37697e83b1f1.jpg
+│   │       │   ├── a703711ad7a4465b881c0074ca49b577.jpg
+│   │       │   └── cb3827ef7e914f18b7b9a683d7edb9c5.jpg
+│   │       ├── 102
+│   │       │   └── d6fa044595ab475ca88119fd5dab2e7a.jpg
+│   │       ├── 2
+│   │       │   ├── e74e3bab78bf4a4da928831170bc94e2.jpg
+│   │       │   └── ec13921623354ffdac7de7df0195b59c.jpg
+│   │       ├── 3
+│   │       │   └── ae5db6aafc5b4244a341aa5238c4c259.jpg
+│   │       ├── 5
+│   │       │   ├── 96d78404480e46119544e5d596b5785a.jpg
+│   │       │   └── d97585bc06a8491a98a51b3b0d43ebec.jpg
+│   │       ├── 9
+│   │       │   ├── 72441c2b0eb64ecc9b83b36a3c66ac52.jpg
+│   │       │   ├── aa1bad0aad134d76bbca024abd5a69d3.jpg
+│   │       │   ├── b3e3851549eb42d6bbc541709c7630d6.jpg
+│   │       │   └── f12fec68c11944b1b29dafa9b96d07f4.jpg
+│   │       ├── 96
+│   │       │   └── 9e9d3f025d06455cbf390dce55df25f3.jpg
+│   │       └── 97
+│   │           └── 78e92cfa5aab4468815e403569743bdf.jpg
+│   ├── __init__.py
+│   ├── migrations
+│   │   ├── 0001_initial.py
+│   │   ├── 0002_alter_vehicleimage_image.py
+│   │   ├── 0003_alter_vehicleimage_is_main_and_more.py
+│   │   ├── 0004_alter_vehicleimage_image_alter_vehicleimage_is_main_and_more.py
+│   │   ├── 0005_remove_vehicleimage_is_main_alter_vehicleimage_image.py
+│   │   ├── 0006_vehicleimage_is_main.py
+│   │   ├── 0007_alter_vehicleimage_image.py
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       ├── 0001_initial.cpython-310.pyc
+│   │       ├── 0002_alter_vehicleimage_image.cpython-310.pyc
+│   │       ├── 0003_alter_vehicleimage_is_main_and_more.cpython-310.pyc
+│   │       ├── 0004_alter_vehicleimage_image_alter_vehicleimage_is_main_and_more.cpython-310.pyc
+│   │       ├── 0005_remove_vehicleimage_is_main_alter_vehicleimage_image.cpython-310.pyc
+│   │       ├── 0006_vehicleimage_is_main.cpython-310.pyc
+│   │       ├── 0007_alter_vehicleimage_image.cpython-310.pyc
+│   │       └── __init__.cpython-310.pyc
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── admin.cpython-310.pyc
+│   │   ├── apps.cpython-310.pyc
+│   │   ├── forms.cpython-310.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── models.cpython-310.pyc
+│   │   ├── urls.cpython-310.pyc
+│   │   └── views.cpython-310.pyc
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+├── static
+│   ├── css
+│   │   ├── backup.css
+│   │   └── styles.css
+│   └── images
+│       ├── favicon.ico
+│       ├── homecar.jpg
+│       └── no_image_available.png
+├── templates
+│   ├── 404.html
+│   ├── base.html
+│   ├── comments
+│   │   ├── ccomments_section.html
+│   │   ├── comment_confirm_delete.html
+│   │   └── comment_form.html
+│   ├── index.html
+│   ├── media
+│   │   └── image_upload.html
+│   ├── partials
+│   │   ├── footer.html
+│   │   ├── header.html
+│   │   └── messages.html
+│   ├── users
+│   │   ├── login.html
+│   │   ├── profile.html
+│   │   ├── register.html
+│   │   └── test.html
+│   └── vehicles
+│       ├── vehicle_detail.html
+│       ├── vehicle_form.html
+│       └── vehicle_list.html
+├── users
+│   ├── admin.py
+│   ├── apps.py
+│   ├── context_processors.py
+│   ├── forms.py
+│   ├── __init__.py
+│   ├── meme.py
+│   ├── migrations
+│   │   ├── __init__.py
+│   │   └── __pycache__
+│   │       └── __init__.cpython-310.pyc
+│   ├── models.py
+│   ├── __pycache__
+│   │   ├── admin.cpython-310.pyc
+│   │   ├── apps.cpython-310.pyc
+│   │   ├── context_processors.cpython-310.pyc
+│   │   ├── forms.cpython-310.pyc
+│   │   ├── __init__.cpython-310.pyc
+│   │   ├── models.cpython-310.pyc
+│   │   ├── urls.cpython-310.pyc
+│   │   └── views.cpython-310.pyc
+│   ├── tests.py
+│   ├── urls.py
+│   └── views.py
+└── vehicles
+    ├── admin.py
+    ├── apps.py
+    ├── forms.py
+    ├── __init__.py
+    ├── migrations
+    │   ├── 0001_initial.py
+    │   ├── 0002_vehicle_model.py
+    │   ├── 0003_alter_vehicle_brand_and_more.py
+    │   ├── 0004_alter_vehicle_engine_displacement_and_more.py
+    │   ├── 0005_followedvehicle.py
+    │   ├── __init__.py
+    │   └── __pycache__
+    │       ├── 0001_initial.cpython-310.pyc
+    │       ├── 0002_vehicle_model.cpython-310.pyc
+    │       ├── 0003_alter_vehicle_brand_and_more.cpython-310.pyc
+    │       ├── 0004_alter_vehicle_engine_displacement_and_more.cpython-310.pyc
+    │       ├── 0005_followedvehicle.cpython-310.pyc
+    │       └── __init__.cpython-310.pyc
+    ├── models.py
+    ├── __pycache__
+    │   ├── admin.cpython-310.pyc
+    │   ├── apps.cpython-310.pyc
+    │   ├── forms.cpython-310.pyc
+    │   ├── __init__.cpython-310.pyc
+    │   ├── models.cpython-310.pyc
+    │   ├── urls.cpython-310.pyc
+    │   └── views.cpython-310.pyc
+    ├── tests.py
+    ├── urls.py
+    └── views.py
+
+37 directories, 154 files
